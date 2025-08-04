@@ -37,5 +37,56 @@
     "exec_path": "%ProgramData%\\Riot Games\\Metadata\\valorant.live\\valorant.exe",
     "uninstall_command": null,
     "category": "game"
+  },
+
+  "steam": {
+    "version": "latest",
+    "description": "Steam, plataforma de distribución digital de juegos",
+    "url": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",
+    "silent_install_args": "/S",
+    "exec_path": "C:\\Program Files (x86)\\Steam\\Steam.exe",
+    "uninstall_command": "\"C:\\Program Files (x86)\\Steam\\uninstall.exe\" /S",
+    "category": "game"
+  },
+
+  "gog-galaxy": {
+    "version": "latest",
+    "description": "GOG Galaxy, cliente para juegos DRM-free",
+    "url": "https://webcdn.gog.com/client/GOG_Galaxy_2.0.exe",
+    "silent_install_args": "/VERYSILENT",
+    "exec_path": "C:\\Program Files (x86)\\GOG Galaxy\\GalaxyClient.exe",
+    "uninstall_command": "\"C:\\Program Files (x86)\\GOG Galaxy\\unins000.exe\" /VERYSILENT",
+    "category": "game"
+  },
+
+  "origin": {
+    "version": "latest",
+    "description": "Origin, plataforma de juegos de EA",
+    "url": "https://download.dm.origin.com/origin/live/OriginSetup.exe",
+    "silent_install_args": "/silent",
+    "exec_path": "C:\\Program Files (x86)\\Origin\\Origin.exe",
+    "uninstall_command": "\"C:\\Program Files (x86)\\Origin\\uninstall.exe\" /silent",
+    "category": "game"
+  },
+
+  "battle-net": {
+    "version": "latest",
+    "description": "Battle.net, plataforma de juegos de Blizzard",
+    "url": "https://www.battle.net/download/getInstaller?os=win",
+    "silent_install_args": "/S",
+    "exec_path": "C:\\Program Files (x86)\\Battle.net\\Battle.net.exe",
+    "uninstall_command": "\"C:\\Program Files (x86)\\Battle.net\\uninstall.exe\" /S",
+    "category": "game"
+  },
+
+  "tlauncher": {
+    "version": "latest",
+    "description": "TLauncher, launcher alternativo para Minecraft",
+    "url": "https://tlauncher.org/jar",
+    "silent_install_args": "",
+    "exec_path": "C:\\Program Files\\TLauncher\\TLauncher.exe",
+    "uninstall_command": "\"C:\\Program Files\\TLauncher\\uninstall.exe\" /S",
+    "category": "game"
   }
 }
+
